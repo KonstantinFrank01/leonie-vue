@@ -4,6 +4,7 @@
             <a class="navbar-item mr-5" href="#">Article</a>
             <a class="navbar-item mr-4" href="#">Contact</a>
         </nav>   
+        <img src="../assets/heroImage.jpg" id="heroImage"/>
     </div>    
 </template>
 
@@ -14,5 +15,8 @@ export default {
 </script>
 
 <style>
-
+    #heroImage {
+        height: 80vh;
+        width: 100%;
+    }
 </style>
