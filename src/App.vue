@@ -1,6 +1,12 @@
 <template>
   <div id="app">
     <Header />
+    <Article 
+      title="Blick in technologische Zukunft"
+      summary="lkfafagsgagaa"
+      excerptHeader="jlkdlsjlsjd"
+      excerpt="jlskdlsjdkls"
+    />
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App yeeeeaaaa"/> -->
   </div>
@@ -9,12 +15,14 @@
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header.vue'
+import Article from './components/Article.vue'
 
 export default {
   name: 'app',
   components: {
     //HelloWorld,
-    Header
+    Header,
+    Article
   }
 }
 </script>
