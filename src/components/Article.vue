@@ -2,7 +2,7 @@
     <div class="wrapper">
         <div class="zoom-effect-container">
             <div class="image-card">
-                <img src={ imgPath } alt="Bild" />
+                <img v-bind:src="imgPath" alt="Bild" />
             </div>
         </div>
         <div class="white-box-text">
@@ -31,9 +31,13 @@ export default {
     name: 'Article',
     props: {
         title: String,
+        summary: String,
         excerptHeader: String,
         excerpt: String
-    }   
+    },   
+    data: {
+
+    }
 }
 </script>
 
