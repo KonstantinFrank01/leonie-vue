@@ -2,7 +2,7 @@
     <div class="wrapper">
         <div class="zoom-effect-container">
             <div class="image-card">
-                <img v-bind:src="imgPath" alt="Bild" />
+                <img src="{ imgPath }}" alt="Bild" />
             </div>
         </div>
         <div class="white-box-text">
@@ -20,7 +20,7 @@
                 <span>{{ excerpt }}</span>
             </div>
             <div class="btn-container">
-                <a type="button" class="btn btn-primary" href={articlePath}>Artikel lesen</a>
+                <a type="button" class="btn btn-primary" href="{{ articlePath }}">Artikel lesen</a>
             </div>
         </div>
     </div>
@@ -33,7 +33,9 @@ export default {
         title: String,
         summary: String,
         excerptHeader: String,
-        excerpt: String
+        excerpt: String,
+        imgPath: String,
+        articlePath: String
     },   
     data: {
 
