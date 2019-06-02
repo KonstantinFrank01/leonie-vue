@@ -131,7 +131,7 @@ export default {
 }
 .white-box-text .text {
     position: relative;
-    left: -1%;
+    left: 0%;
     top: 2%;
 }
 
@@ -166,7 +166,7 @@ export default {
 
 .btn-container .btn {
     position: relative;
-    left: 0%;
+    left: 35%;
 }
 
 .wrapper:hover .white-box-text {
