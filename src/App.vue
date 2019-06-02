@@ -73,8 +73,8 @@ export default {
   }
   .articles__wrapper {
     margin: 0 auto;
-    /* margin-top: 6rem;
-    margin-left: 11.5rem; */
+    margin-top: 6rem;
+    /* margin-left: 11.5rem; */ 
     display: grid;
     grid-gap: 8vw;
     grid-template-columns: 1fr 1fr;

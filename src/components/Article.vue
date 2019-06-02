@@ -58,6 +58,7 @@ export default {
     height: 580px;
     overflow: hidden;
     margin-top: 10px;
+    margin-bottom: -10rem;
 }
 .wrapper:nth-of-type(2) {
     margin-top: calc(98px + 10px);
