@@ -2,7 +2,7 @@
     <div class="wrapper">
         <div class="zoom-effect-container">
             <div class="image-card">
-                <img src="{ imgPath }}" alt="Bild" />
+                <img :src="image" alt="Bild" />
             </div>
         </div>
         <div class="white-box-text">
@@ -20,7 +20,7 @@
                 <span>{{ excerpt }}</span>
             </div>
             <div class="btn-container">
-                <a type="button" class="btn btn-primary" href="{{ articlePath }}">Artikel lesen</a>
+                <a type="button" class="btn btn-primary" :href="articlePath">Artikel lesen</a>
             </div>
         </div>
     </div>
@@ -37,8 +37,16 @@ export default {
         imgPath: String,
         articlePath: String
     },   
-    data: {
-
+    data() {
+        return {
+            image: null
+        }
+    },
+    mounted() {
+        if (this.imgPath) {
+            const images = require('@/assets/' + this.imgPath)
+            this.image = images
+        }
     }
 }
 </script>
