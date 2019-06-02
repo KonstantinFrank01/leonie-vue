@@ -72,12 +72,18 @@ export default {
     flex-wrap: wrap;
   }
   .articles__wrapper {
-    margin: 0 12px;
-    margin-top: 6rem;
-    margin-left: 11.5rem;
+    margin: 0 auto;
+    /* margin-top: 6rem;
+    margin-left: 11.5rem; */
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 8vw;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .articles__wrapper {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
