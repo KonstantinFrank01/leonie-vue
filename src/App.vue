@@ -1,6 +1,10 @@
 <template>
   <div id="app">
     <Header/>
+    <div class="typer-box">
+      <vue-typer :text='["kooijj", "ljlkjl"]' 
+        erase-style='backspace' />
+    </div>
     <section class="articles__wrapper">
       <Article
         id="article1"
@@ -52,13 +56,16 @@
 //import HelloWorld from './components/HelloWorld.vue'
 import Header from "./components/Header.vue";
 import Article from "./components/Article.vue";
+import { VueTyper } from 'vue-typer'
+//import Typer from "./components/Typer.vue";
 
 export default {
   name: "app",
   components: {
     //HelloWorld,
     Header,
-    Article
+    Article,
+    VueTyper
   }
 };
 </script>
@@ -83,6 +90,11 @@ export default {
   grid-gap: 8vw;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
+}
+
+.typer-box {
+  position: relative;
+  top: -20%;
 }
 
 @media screen and (max-width: 960px) {
