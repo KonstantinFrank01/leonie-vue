@@ -39,6 +39,8 @@
       />
     </section>
 
+    <Footer></Footer>
+
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App yeeeeaaaa"/>-->
   </div>
@@ -48,13 +50,16 @@
 //import HelloWorld from './components/HelloWorld.vue'
 import Header from "./components/Header.vue";
 import Article from "./components/Article.vue";
+import Footer from "./components/Footer.vue";
+
 
 export default {
   name: "app",
   components: {
     //HelloWorld,
     Header,
-    Article
+    Article,
+    Footer
   }
 };
 </script>
