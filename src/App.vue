@@ -60,30 +60,30 @@ export default {
 </script>
 
 <style lang="css">
-  #app {
-    /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    /* text-align: center;
+#app {
+  /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* text-align: center;
     color: #2c3e50;
     margin-top: 60px; */
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.articles__wrapper {
+  margin: 0 auto;
+  margin-top: 6rem;
+  /* margin-left: 11.5rem; */
+  display: grid;
+  grid-gap: 8vw;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 960px) {
   .articles__wrapper {
-    margin: 0 auto;
-    margin-top: 6rem;
-    /* margin-left: 11.5rem; */ 
-    display: grid;
-    grid-gap: 8vw;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr;
   }
-  
-  @media screen and (max-width: 960px) {
-    .articles__wrapper {
-      grid-template-columns: 1fr;
-    }
-  }
+}
 </style>
