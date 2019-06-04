@@ -59,7 +59,7 @@
 import Header from "./components/Header.vue";
 import Article from "./components/Article.vue";
 <<<<<<< HEAD
-import Footer from "./components/Footer.vue";
+// import Footer from "./components/Footer.vue";
 
 =======
 import { VueTyper } from 'vue-typer'
@@ -73,7 +73,7 @@ export default {
     Header,
     Article,
 <<<<<<< HEAD
-    Footer
+    Footer,
 =======
     VueTyper
 >>>>>>> 51cb73bd259e14d9999ec6a96fbea38819bbd62b
