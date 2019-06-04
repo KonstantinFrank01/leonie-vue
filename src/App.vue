@@ -46,19 +46,23 @@
         articlePath="https://derstandard.at/2000095788518/Neues-aus-der-Zukunft-im-Linzer-Schlossmuseum"
       />
     </section>
+    <div class="footer">
+        <Footer />
+    </div>
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
 import Article from "./components/Article.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "app",
   components: {
-    //HelloWorld,
     Header,
     Article,
+    Footer
   }
 };
 </script>
@@ -90,9 +94,13 @@ export default {
   top: -20%;
 }
 
+.footer {
+  margin-top: 6.8rem;
+}
+
 @media screen and (max-width: 960px) {
   .articles__wrapper {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; 
   }
 }
 </style>

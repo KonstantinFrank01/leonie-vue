@@ -76,10 +76,13 @@ export default {
     margin-top: 50px;
   }
   .wrapper:nth-of-type(2) {
-    margin-top: 50px;
+    margin-top: 140px;
+  }
+  .wrapper:nth-of-type(3) {
+    margin-top: 140px;
   }
   .wrapper:nth-of-type(4) {
-    margin-top: 50px;
+    margin-top: 140px;
   }
 }
 
@@ -187,6 +190,12 @@ export default {
 .wrapper:hover .image-card img {
   -webkit-transform: scale(1.12);
   transform: scale(1.12);
+}
+
+@media screen and (max-width: 960px) {
+  .wrapper {
+    margin-top: -2rem;
+  }
 }
 </style>
 
