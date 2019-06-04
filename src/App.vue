@@ -1,10 +1,8 @@
 <template>
   <div id="app">
     <Header/>
-    <div class="typer-box">
       <vue-typer :text='["kooijj", "ljlkjl"]' 
         erase-style='backspace' />
-    </div>
     <section class="articles__wrapper">
       <Article
         id="article1"
@@ -87,11 +85,6 @@ export default {
   grid-gap: 8vw;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-}
-
-.typer-box {
-  position: relative;
-  top: -20%;
 }
 
 .footer {
