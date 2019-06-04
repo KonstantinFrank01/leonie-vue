@@ -10,13 +10,7 @@
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.20",
     "core-js": "^2.6.5",
-    "vue": "^2.6.10",
-<<<<<<< HEAD
-    "vue-social-sharing": "^2.4.5",
-    "vue-socialmedia-share": "^1.0.1"
-=======
-    "vue-typer": "^1.2.0"
->>>>>>> 51cb73bd259e14d9999ec6a96fbea38819bbd62b
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.7.0",

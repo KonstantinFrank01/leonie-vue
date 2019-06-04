@@ -46,25 +46,12 @@
         articlePath="https://derstandard.at/2000095788518/Neues-aus-der-Zukunft-im-Linzer-Schlossmuseum"
       />
     </section>
-
-    <Footer></Footer>
-
-    <!-- <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App yeeeeaaaa"/>-->
   </div>
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
 import Header from "./components/Header.vue";
 import Article from "./components/Article.vue";
-<<<<<<< HEAD
-// import Footer from "./components/Footer.vue";
-
-=======
-import { VueTyper } from 'vue-typer'
-//import Typer from "./components/Typer.vue";
->>>>>>> 51cb73bd259e14d9999ec6a96fbea38819bbd62b
 
 export default {
   name: "app",
@@ -72,11 +59,6 @@ export default {
     //HelloWorld,
     Header,
     Article,
-<<<<<<< HEAD
-    Footer,
-=======
-    VueTyper
->>>>>>> 51cb73bd259e14d9999ec6a96fbea38819bbd62b
   }
 };
 </script>
